@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - ghost > express > connect > send > mime:
+        patched: '2023-09-26T13:10:27.390Z'
+        id: 'npm:mime:20170907'
+        path: ghost > express > connect > send > mime
+  'npm:negotiator:20160616':
+    - ghost > express > connect > negotiator:
+        patched: '2023-09-26T13:10:27.390Z'
+        id: 'npm:negotiator:20160616'
+        path: ghost > express > connect > negotiator
+  'npm:qs:20140806-1':
+    - ghost > express > connect > qs:
+        patched: '2023-09-26T13:10:27.390Z'
+        id: 'npm:qs:20140806-1'
+        path: ghost > express > connect > qs
