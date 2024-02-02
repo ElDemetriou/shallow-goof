@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "qs": "0.0.6",
-    "ghost": "0.4.2",
-    "node-uuid": "1.4.0"
+    "ghost": "4.15.0",
+    "node-uuid": "1.4.8"
   }
 }
 
